@@ -1,183 +1,658 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MediCare Hospital</title>
+
+    <meta name="description"
+        content="MediCare Hospital provides modern healthcare services, expert doctors, emergency care and diagnostic services.">
+
+    <title>MediCare Hospital | Quality Healthcare</title>
 
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 
     <!-- Font Awesome -->
     <link rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 
 <body>
 
-<header>
+    <!-- ================= HEADER ================= -->
 
-    <div class="logo">
-        <i class="fa-solid fa-heart-pulse"></i>
-        MediCare
-    </div>
+    <header class="header">
 
-    <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#doctors">Doctors</a></li>
-            <li><a href="#appointment">Appointment</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+        <div class="logo">
+            <i class="fa-solid fa-heart-pulse"></i>
+            <span>MediCare</span>
+        </div>
 
-</header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#doctors">Doctors</a></li>
+                <li><a href="#appointment">Appointment</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
 
-<section id="home" class="hero">
+    </header>
 
-    <div class="hero-text">
 
-        <h1>Your Health Is Our Priority</h1>
+    <!-- ================= HERO ================= -->
 
-        <p>
-            We provide world-class healthcare services with experienced doctors,
-            modern technology and compassionate care.
-        </p>
+    <section id="home" class="hero">
 
-        <a href="#appointment" class="btn">
-            Book Appointment
+        <div class="hero-content">
+
+            <span class="hero-tag">
+                <i class="fa-solid fa-hospital"></i>
+                Trusted Healthcare Since 2010
+            </span>
+
+            <h1>
+                Your Health Is
+                <span>Our Priority</span>
+            </h1>
+
+            <p>
+                MediCare Hospital provides trusted healthcare services
+                with experienced doctors, modern medical technology and
+                patient-focused care.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#appointment" class="btn primary-btn">
+                    <i class="fa-solid fa-calendar-check"></i>
+                    Book Appointment
+                </a>
+
+                <a href="#services" class="btn secondary-btn">
+                    Explore Services
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="hero-image">
+
+            <img src="https://images.unsplash.com/photo-1584515933487-779824d29309?w=800"
+                alt="Doctor providing healthcare">
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= EMERGENCY BAR ================= -->
+
+    <section class="emergency">
+
+        <div class="emergency-content">
+
+            <div class="emergency-icon">
+                <i class="fa-solid fa-truck-medical"></i>
+            </div>
+
+            <div>
+                <h3>24/7 Emergency Services</h3>
+                <p>Our emergency team is available around the clock.</p>
+            </div>
+
+        </div>
+
+        <a href="tel:+911800123456" class="emergency-number">
+            <i class="fa-solid fa-phone"></i>
+            +91 1800 123 456
         </a>
 
-    </div>
+    </section>
 
-    <div class="hero-image">
 
-        <img src="https://images.unsplash.com/photo-1584515933487-779824d29309?w=600"
-             alt="Doctor">
+    <!-- ================= ABOUT ================= -->
 
-    </div>
+    <section id="about" class="about">
 
-</section>
+        <div class="about-image">
 
-<section id="services" class="services">
-
-    <h2>Our Services</h2>
-
-    <div class="service-container">
-
-        <div class="card">
-            <i class="fa-solid fa-user-doctor"></i>
-            <h3>Expert Doctors</h3>
-            <p>Highly experienced specialists available for all healthcare needs.</p>
-        </div>
-
-        <div class="card">
-            <i class="fa-solid fa-truck-medical"></i>
-            <h3>Emergency Care</h3>
-            <p>24/7 Emergency Medical Service.</p>
-        </div>
-
-        <div class="card">
-            <i class="fa-solid fa-heart-pulse"></i>
-            <h3>Cardiology</h3>
-            <p>Heart Care & Diagnostics.</p>
-        </div>
-
-        <div class="card">
-            <i class="fa-solid fa-flask"></i>
-            <h3>Laboratory</h3>
-            <p>Accurate Testing Services.</p>
-        </div>
-
-    </div>
-
-</section>
-
-<section id="doctors" class="doctors">
-
-    <h2>Meet Our Doctors</h2>
-
-    <div class="doctor-box">
-
-        <div class="doctor">
-
-            <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=300">
-
-            <h3>Dr. John Smith</h3>
-
-            <p>Cardiologist</p>
+            <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=700"
+                alt="MediCare Hospital">
 
         </div>
 
-        <div class="doctor">
+        <div class="about-content">
 
-            <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=300">
+            <span class="section-tag">ABOUT MEDICARE</span>
 
-            <h3>Dr. Sarah Johnson</h3>
+            <h2>
+                Caring For You Like
+                <span>Family</span>
+            </h2>
 
-            <p>Neurologist</p>
+            <p>
+                MediCare Hospital is committed to providing quality healthcare
+                services in a safe, modern and patient-friendly environment.
+            </p>
+
+            <p>
+                Our medical professionals work together to provide diagnosis,
+                treatment and ongoing care across multiple specialties.
+            </p>
+
+            <div class="about-features">
+
+                <div>
+                    <i class="fa-solid fa-circle-check"></i>
+                    Experienced Doctors
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-circle-check"></i>
+                    Modern Medical Equipment
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-circle-check"></i>
+                    24/7 Emergency Services
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-circle-check"></i>
+                    Patient-Centered Care
+                </div>
+
+            </div>
 
         </div>
 
-        <div class="doctor">
+    </section>
 
-            <img src="https://images.unsplash.com/photo-1594824475317-d9c76c8f85d0?w=300">
 
-            <h3>Dr. Michael Lee</h3>
+    <!-- ================= SERVICES ================= -->
 
-            <p>Orthopedic Surgeon</p>
+    <section id="services" class="services">
+
+        <div class="section-heading">
+
+            <span class="section-tag">OUR SERVICES</span>
+
+            <h2>
+                Healthcare Services
+            </h2>
+
+            <p>
+                Comprehensive medical services designed to support
+                your health at every stage.
+            </p>
 
         </div>
 
-    </div>
 
-</section>
+        <div class="service-container">
 
-<section id="appointment" class="appointment">
+            <div class="card">
 
-    <h2>Book Appointment</h2>
+                <div class="card-icon">
+                    <i class="fa-solid fa-heart-pulse"></i>
+                </div>
 
-    <form>
+                <h3>Cardiology</h3>
 
-        <input type="text" placeholder="Full Name" required>
+                <p>
+                    Heart diagnosis, treatment and preventive cardiac care
+                    from experienced specialists.
+                </p>
 
-        <input type="email" placeholder="Email Address" required>
+                <a href="#appointment">
+                    Learn More →
+                </a>
 
-        <input type="tel" placeholder="Phone Number" required>
+            </div>
 
-        <select>
 
-            <option>Select Department</option>
+            <div class="card">
 
-            <option>Cardiology</option>
+                <div class="card-icon">
+                    <i class="fa-solid fa-brain"></i>
+                </div>
 
-            <option>Neurology</option>
+                <h3>Neurology</h3>
 
-            <option>Orthopedics</option>
+                <p>
+                    Specialized neurological consultation, diagnosis
+                    and treatment services.
+                </p>
 
-            <option>Pediatrics</option>
+                <a href="#appointment">
+                    Learn More →
+                </a>
 
-        </select>
+            </div>
 
-        <textarea rows="5" placeholder="Describe your problem"></textarea>
 
-        <button type="submit">
-            Book Appointment
-        </button>
+            <div class="card">
 
-    </form>
+                <div class="card-icon">
+                    <i class="fa-solid fa-bone"></i>
+                </div>
 
-</section>
+                <h3>Orthopedics</h3>
 
-<footer id="contact">
+                <p>
+                    Comprehensive treatment for bones, joints,
+                    muscles and mobility problems.
+                </p>
 
-    <p>© 2026 MediCare Hospital. All Rights Reserved.</p>
+                <a href="#appointment">
+                    Learn More →
+                </a>
 
-</footer>
+            </div>
 
-<!-- JavaScript -->
-<script src="script.js"></script>
+
+            <div class="card">
+
+                <div class="card-icon">
+                    <i class="fa-solid fa-flask"></i>
+                </div>
+
+                <h3>Laboratory</h3>
+
+                <p>
+                    Reliable diagnostic testing services using
+                    modern laboratory technology.
+                </p>
+
+                <a href="#appointment">
+                    Learn More →
+                </a>
+
+            </div>
+
+
+            <div class="card">
+
+                <div class="card-icon">
+                    <i class="fa-solid fa-baby"></i>
+                </div>
+
+                <h3>Pediatrics</h3>
+
+                <p>
+                    Specialized healthcare services focused on
+                    children's health and development.
+                </p>
+
+                <a href="#appointment">
+                    Learn More →
+                </a>
+
+            </div>
+
+
+            <div class="card">
+
+                <div class="card-icon">
+                    <i class="fa-solid fa-person-running"></i>
+                </div>
+
+                <h3>Physiotherapy</h3>
+
+                <p>
+                    Rehabilitation and physical therapy programs
+                    to support recovery and mobility.
+                </p>
+
+                <a href="#appointment">
+                    Learn More →
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= DOCTORS ================= -->
+
+    <section id="doctors" class="doctors">
+
+        <div class="section-heading">
+
+            <span class="section-tag">OUR SPECIALISTS</span>
+
+            <h2>Meet Our Doctors</h2>
+
+            <p>
+                Experienced healthcare professionals dedicated
+                to providing quality patient care.
+            </p>
+
+        </div>
+
+
+        <div class="doctor-box">
+
+            <div class="doctor">
+
+                <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400"
+                    alt="Dr. John Smith">
+
+                <div class="doctor-info">
+
+                    <h3>Dr. John Smith</h3>
+
+                    <p>Cardiologist</p>
+
+                    <span>
+                        12+ Years Experience
+                    </span>
+
+                    <a href="#appointment">
+                        Book Consultation
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="doctor">
+
+                <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400"
+                    alt="Dr. Sarah Johnson">
+
+                <div class="doctor-info">
+
+                    <h3>Dr. Sarah Johnson</h3>
+
+                    <p>Neurologist</p>
+
+                    <span>
+                        10+ Years Experience
+                    </span>
+
+                    <a href="#appointment">
+                        Book Consultation
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="doctor">
+
+                <img src="https://images.unsplash.com/photo-1594824475317-d9c76c8f85d0?w=400"
+                    alt="Dr. Michael Lee">
+
+                <div class="doctor-info">
+
+                    <h3>Dr. Michael Lee</h3>
+
+                    <p>Orthopedic Surgeon</p>
+
+                    <span>
+                        15+ Years Experience
+                    </span>
+
+                    <a href="#appointment">
+                        Book Consultation
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= APPOINTMENT ================= -->
+
+    <section id="appointment" class="appointment">
+
+        <div class="section-heading">
+
+            <span class="section-tag">APPOINTMENT</span>
+
+            <h2>Book Your Appointment</h2>
+
+            <p>
+                Fill in your details and our team will contact you
+                regarding your appointment.
+            </p>
+
+        </div>
+
+
+        <form id="appointmentForm">
+
+            <div class="form-row">
+
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Full Name"
+                    required>
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Email Address"
+                    required>
+
+            </div>
+
+
+            <div class="form-row">
+
+                <input
+                    type="tel"
+                    id="phone"
+                    placeholder="Phone Number"
+                    required>
+
+                <select id="department" required>
+
+                    <option value="">
+                        Select Department
+                    </option>
+
+                    <option value="cardiology">
+                        Cardiology
+                    </option>
+
+                    <option value="neurology">
+                        Neurology
+                    </option>
+
+                    <option value="orthopedics">
+                        Orthopedics
+                    </option>
+
+                    <option value="pediatrics">
+                        Pediatrics
+                    </option>
+
+                    <option value="physiotherapy">
+                        Physiotherapy
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <textarea
+                id="message"
+                rows="5"
+                placeholder="Describe your problem">
+            </textarea>
+
+
+            <button type="submit" class="submit-btn">
+
+                <i class="fa-solid fa-calendar-check"></i>
+
+                Request Appointment
+
+            </button>
+
+        </form>
+
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section id="contact" class="contact">
+
+        <div class="contact-box">
+
+            <div>
+
+                <i class="fa-solid fa-location-dot"></i>
+
+                <h3>Our Location</h3>
+
+                <p>
+                    Ahmedabad, Gujarat, India
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <i class="fa-solid fa-phone"></i>
+
+                <h3>Call Us</h3>
+
+                <p>
+                    +91 1800 123 456
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <i class="fa-solid fa-envelope"></i>
+
+                <h3>Email Us</h3>
+
+                <p>
+                    info@medicare.example
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <i class="fa-solid fa-clock"></i>
+
+                <h3>Opening Hours</h3>
+
+                <p>
+                    24 Hours / 7 Days
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-content">
+
+            <div class="footer-logo">
+
+                <i class="fa-solid fa-heart-pulse"></i>
+
+                MediCare Hospital
+
+            </div>
+
+            <p>
+                Providing trusted healthcare with compassion,
+                technology and experienced medical professionals.
+            </p>
+
+            <div class="social-links">
+
+                <a href="#">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                © <span id="year"></span> MediCare Hospital.
+                All Rights Reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
 
 </body>
-</html> 
+
+</html>
+```
+
+This HTML is now structured so that your project can later be expanded into a **real DevOps practice project**:
+
+```text
+medicare-hospital/
+│
+├── index.html
+├── style.css
+├── script.js
+│
+├── Dockerfile
+├── nginx.conf
+│
+└── .github/
+    └── workflows/
+        └── ci-cd.yml
+```
+
+The next logical step is to update your **`style.css` and `script.js` to match this new HTML**, and then add **Dockerfile + Nginx + GitHub Actions CI/CD** so every `git push` automatically tests, builds, and deploys the website.
